@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: rgb(202,133,96);
+    min-height: 100vh;
+    border: 70px solid rgb(78,24,14);
+
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section{
+    display:flex;
+    justify-content: space-between;
+    margin:60px;
+    align-items: flex-end;
+    
+}
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(78,24,14);
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-family: 'Satisfy', cursive;
+}
+
+.top_section h4{
+    font-size: 20px;
+    text-align: end;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container, img{
+    width:300px;
+    height:320px;
+}
+
+.about_section{
+    margin-top: 60px;
+    
+}
+
+.about_section h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+.about_section p{
+    font-size:20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.timeline_section{
+    margin: 40px 0;
+}
+.timeline_section h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+.timeline_section ul{
+    margin-left: 50px;
+    text-align: justify;  
+}
+
+.timeline_section li{
+    font-size:20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    margin: 20px 0px;
+}
+
+
+footer p{
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer a:hover{
+    text-decoration: underline;
+
+}
